@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap")
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap")
+
+body {
+    /*el valor por defecto es de 16px
+    90% de 16px*/
+}
+
+
+h1 {
+    font-family: 'Cardo', serif;
+    font-weight: 800;
+    font-size:7em;
+    /* 1em == medida base == 16px
+    7em == 16px * 7*/
+}
+
+h2 {
+    font-family: 'Cardo', serif;
+    font-weight: 800;
+    font-size:2.3em;
+}
+
+p1 {
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+p2 {
+    color: cornflowerblue;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+p5 {
+    color: black;
+    font-family: 'Cardo', sans-serif; 
+    font-weight: 800;
+    font-size: 1.5em;
+    text-align: right;
+}
+
+p6 {
+    color: black;
+    font-family: 'Cardo', sans-serif; 
+    font-size: 0.5em;
+    text-align: right;
+}
+
+p7 {
+    color: cornflowerblue;
+    font-family: 'Cardo', sans-serif; 
+    font-size: 1em;
+    text-align: right;
+
+}
+
+/* se puede utilizar una sóla vez por html*/
+   body { font-size: 60%;}
+
